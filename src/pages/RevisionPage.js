@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function RevisionPage() {
-    const [words, setWords] = useState([]);
+    const [, setWords] = useState([]);
     const [currentWord, setCurrentWord] = useState({});
     const [answer, setAnswer] = useState('');
 
